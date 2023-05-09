@@ -15,7 +15,6 @@
       like the right fit. I like to see the logic behind things and since I
       started as a developer it all just really makes sense. &#10084;
     </p>
-    <a href="\CV latest version.pdf" class="button" download>Download my CV</a>
   </section>
 </div>
 
