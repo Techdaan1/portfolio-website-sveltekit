@@ -1,38 +1,18 @@
-# create-svelte
+# Portfolio website
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+My portfolio is build using Sveltekit, HTML and CSS. The website tells you more about who I am and about my work as a beginning web developer.
 
-## Creating a project
+## Built With
 
-If you're seeing this, you've probably already done this step. Congrats!
+- Sveltekit
+- Javascript
+- HTML
+- CSS
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+### Key Features
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+- The website exists of four main pages, an index(home), about, projects and contact page.
+- The index page gives you an introduction of what you can expect on the portfolio site.
+- The about page tells you a bit more about who I am.
+- On the projects page you can have a look at some of my work as a beginning web developer.
+- On the contact page you will see how you can contact me.
