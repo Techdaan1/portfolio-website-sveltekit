@@ -1,6 +1,6 @@
 # Portfolio website
 
-My portfolio is build using Sveltekit, HTML and CSS. The website tells you more about who I am and about my work as a beginning web developer.
+My portfolio is build using Sveltekit, Javascript, HTML and CSS. The website tells you more about who I am and about my work as a beginning web developer.
 
 ## Built With
 
