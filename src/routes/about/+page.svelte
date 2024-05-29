@@ -8,7 +8,7 @@
     <p class="about-subtitle">
       I am a career changer, vegetarian, mum of three, Dutch but I live in
       Germany, love to travel and enjoy doing sports. Long story short: I am a
-      busy bee! Workwise I like to challange myself all the time, I am used to
+      busy bee! Workwise I like to challenge myself all the time, I am used to
       work with tight deadlines, am stress-resistent (you have to when you are a
       mum :D) and love to work in teams because it makes you stronger as you can
       learn from each other. My background is in Marketing, but that never felt
