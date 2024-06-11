@@ -130,37 +130,49 @@ built with Javascript and CSS."
 <style>
   .project-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 10px;
+    justify-content: center;
+    display: -ms-grid;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    display: inline-block;
+    margin: 10px;
   }
 
   .project-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-    box-sizing: border-box;
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
-    border-radius: 4px;
+    margin: 5px;
   }
 
-  .project-item img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 4px;
+  @supports (display: grid) {
+    .project-container {
+      display: -ms-grid;
+      display: grid;
+      -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+    }
   }
 
-  @media (max-width: 550px) {
+  @media all and (max-width: 550px) {
     .project-container {
       grid-template-columns: 1fr;
     }
   }
 
-  @media (min-width: 551px) and (max-width: 850px) {
+  @media all and (min-width: 550px) and (max-width: 850px) {
     .project-container {
       grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  @media all and (max-width: 850px) {
+    .project-container {
+      grid-gap: 10px;
+    }
+
+    .project-item:last-child {
+      -ms-grid-column: auto / auto;
+      grid-column: auto / auto;
+      -ms-grid-row: auto / auto;
+      grid-row: auto / auto;
     }
   }
 </style>
