@@ -114,6 +114,17 @@ Angular Material and Typescript and works with the myFlix API."
       livedemo="https://techdaan1.github.io/angular-client-myflix/"
     />
   </div>
+  <div class="project-item">
+    <Project
+      name="ComfyHouse app"
+      info="This is a responsive website thats shows a small webshop. It is
+built with Javascript and CSS."
+      src="/screenshot comfyhouse.png"
+      alt="Screenshot ComfyHouse"
+      githubrepo="https://github.com/Techdaan1/javascript-store"
+      livedemo="https://javascript-store-practice.netlify.app/"
+    />
+  </div>
 </div>
 
 <style>
