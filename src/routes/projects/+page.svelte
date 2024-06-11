@@ -75,7 +75,7 @@ movies, directors, and genres. It's built using the MERN stack."
       info="This is a serverless, progressive web app (PWA) built with React
 using a test-driven development (TDD) technique. The app uses
 the Google Calendar API to fetch upcoming events for the
-selected city. It uses AWS Lambda as the authorisation server. A
+selected city. It uses AWS Lambda as the authorization server. A
 service worker allows the app to work offline. The Recharts
 library is used to visualize data with a scatter graph and a pie
 chart."
@@ -130,44 +130,37 @@ built with Javascript and CSS."
 <style>
   .project-container {
     display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 10px;
+  }
+
+  .project-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    display: -ms-grid;
-    -ms-grid-columns: 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-    display: inline-block;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
   }
 
-  @supports (display: grid) {
-    .project-container {
-      display: -ms-grid;
-      display: grid;
-      -ms-grid-columns: 1fr 1fr 1fr;
-      grid-template-columns: 1fr 1fr 1fr;
-    }
+  .project-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
   }
 
-  @media all and (max-width: 550px) {
+  @media (max-width: 550px) {
     .project-container {
       grid-template-columns: 1fr;
     }
   }
 
-  @media all and (min-width: 550px) and (max-width: 850px) {
+  @media (min-width: 551px) and (max-width: 850px) {
     .project-container {
       grid-template-columns: 1fr 1fr;
-    }
-  }
-
-  @media all and (max-width: 850px) {
-    .project-container {
-      grid-gap: 10px;
-    }
-
-    .project-item:last-child {
-      -ms-grid-column: auto / auto;
-      grid-column: auto / auto;
-      -ms-grid-row: auto / auto;
-      grid-row: auto / auto;
     }
   }
 </style>
