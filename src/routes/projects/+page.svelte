@@ -117,13 +117,13 @@ Angular Material and Typescript and works with the myFlix API."
   <div class="project-item">
     <Project
       name="ComfyHouse app"
-      info="This is a simple responsive website thats shows a small webshop where you can "buy" furniture. It is built with Javascript and CSS."
+      info="This is a simple responsive website thats shows a small webshop where you can 'buy' furniture. It is built with Javascript and CSS."
       src="/screenshot comfyhouse.png"
-      alt="Screenshot ComfyHouse."
+      alt="Screenshot ComfyHouse"
       githubrepo="https://github.com/Techdaan1/javascript-store"
       livedemo="https://javascript-store-practice.netlify.app/"
     />
-    </div>
+  </div>
 </div>
 
 <style>
