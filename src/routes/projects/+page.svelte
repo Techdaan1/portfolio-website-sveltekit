@@ -123,7 +123,7 @@ Angular Material and Typescript and works with the myFlix API."
       githubrepo="https://github.com/Techdaan1/javascript-store"
       livedemo="https://javascript-store-practice.netlify.app/"
     />
-  </div>
+    </div>
 </div>
 
 <style>
