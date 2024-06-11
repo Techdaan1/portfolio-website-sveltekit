@@ -11,7 +11,7 @@
     <Project
       name="Portfolio website"
       info="This is a responsive website to show my professional portfolio. It is
-built with Sveltekit, HTML and CSS.                                                     "
+built with Sveltekit, HTML and CSS."
       src="/screenshot portfolio.png"
       alt="Screenshot portfolio"
       githubrepo="https://github.com/Techdaan1/portfolio-website-svelte"
@@ -22,7 +22,7 @@ built with Sveltekit, HTML and CSS.                                             
       name="To do list app"
       info="This is a basic to-do-list app to practice with the Vue.js
 framework. A user can add and delete todos, edit them and mark
-them as completed.                               "
+them as completed."
       src="/screenshot to do list app.png"
       alt="Screenshot To do list app"
       githubrepo="https://github.com/Techdaan1/to-do-list-app"
@@ -117,10 +117,9 @@ Angular Material and Typescript and works with the myFlix API."
   <div class="project-item">
     <Project
       name="ComfyHouse app"
-      info="This is a simple responsive website thats shows a small webshop where you can "buy" furniture. 
-      It is built with Javascript and CSS."
+      info="This is a simple responsive website thats shows a small webshop where you can "buy" furniture. It is built with Javascript and CSS."
       src="/screenshot comfyhouse.png"
-      alt="Screenshot ComfyHouse"
+      alt="Screenshot ComfyHouse."
       githubrepo="https://github.com/Techdaan1/javascript-store"
       livedemo="https://javascript-store-practice.netlify.app/"
     />
