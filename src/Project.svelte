@@ -7,79 +7,71 @@
   export let livedemo = "";
 </script>
 
-<div class="project-container">
-  <div class="project-item" style="border-radius: 25px">
-    <h2>{name}</h2>
-    <div class="project-image">
-      <img src="{src}" alt="{alt}" />
-    </div>
-    <div class="project-info">
-      <p>{info}</p>
-    </div>
-    <div class="project-links">
-      <a class="github-link" href="{githubrepo}">Github repo</a>
-      {#if livedemo}
-        <a class="demo-link" href="{livedemo}">Live demo</a>
-      {/if}
-    </div>
+<div class="project-item">
+  <h2>{name}</h2>
+  <div class="project-image">
+    <img src="{src}" alt="{alt}" />
+  </div>
+  <div class="project-info">
+    <p>{info}</p>
+  </div>
+  <div class="project-links">
+    <a class="github-link" href="{githubrepo}">Github repo</a>
+    {#if livedemo}
+      <a class="demo-link" href="{livedemo}">Live demo</a>
+    {/if}
   </div>
 </div>
 
 <style>
+  .project-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #e6e6e6;
+    padding: 10px;
+    border-radius: 25px;
+    height: 100%;
+  }
+
   h2 {
     text-align: center;
-    margin: 15px 0 0 0;
-  }
-  p {
-    font-size: 12px;
+    margin: 15px 0;
   }
 
-  .project-container {
-    justify-content: center;
-    display: inline-block;
-    margin: 10px 10px;
-  }
-
-  .project-item {
-    background-color: #e6e6e6;
-    min-height: 400px;
-    border-radius: 25px;
+  .project-image {
     display: flex;
-    justify-content: space-between;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .project-image img {
+    max-width: 100%;
+    max-height: 170px;
+    border-radius: 10px;
   }
 
   .project-info {
-    margin-left: 20px;
-    margin-right: 20px;
+    font-size: 12px;
+    margin: 10px 0;
   }
 
   .project-links {
     background-color: darkgoldenrod;
     display: flex;
     border-radius: 10px;
-  }
-
-  .project-image {
-    display: flex;
-    justify-content: space-evenly;
-  }
-
-  div > img {
-    max-width: 300px;
-    max-height: 170px;
+    margin-top: auto;
   }
 
   .github-link,
   .demo-link {
     background-color: black;
     color: white;
-    padding: 4px 4px;
+    padding: 4px;
     margin: 10px;
     text-decoration: none;
-    flex-basis: 50px;
-    flex-grow: 1;
-    flex-shrink: 1;
+    flex: 1;
     text-align: center;
+    border-radius: 5px;
   }
 </style>
